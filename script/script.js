@@ -1,3 +1,5 @@
+
+const inptEl = document.querySelector('#password')
 let passwordLenght = 16 
 
 function generatePassword(){
@@ -10,11 +12,14 @@ function generatePassword(){
         password += chars.substring(randomNumber, randomNumber + 1)
     }
 
-    const inptEl = document.querySelector('#password')
 
     inptEl.value = password
 
 
+}
+
+function copy(){
+    navigator.clipboard.writeText(inptEl.value)
 }
 
 const passwordLenghtEl = document.querySelector('#password-lenght')
@@ -26,5 +31,8 @@ passwordLenghtEl.addEventListener('input', ()=>{
     generatePassword() //cada vez que arrastar o range precisa chamar essa função para funcionar
 })
 
+const copyButtonEl = document.querySelector('#copy')
+
+copyButtonEl.addEventListener('click', copy)
 
 generatePassword()
