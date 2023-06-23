@@ -6,12 +6,12 @@ Utilize o nosso Gerador Online para criar um senha forte e segura. <br/>
 
 <br>
 
-<h1 align="center"> DESKTOP </h1>
+<h1 align="center"> DESKTOP 💻 </h1>
 <p align="center">
   <img alt="passwordGeneratorDesktop" src="img/password-generator%20-%20desktop.png" width="100%">
 </p>
 
-<h1 align="center"> MOBILE </h1>
+<h1 align="center"> MOBILE 📱</h1>
 <p align="center">
   <img alt="passwordGeneratorMobile" src="img/password-generator%20-%20mobile.png" width="100%">
 </p>
